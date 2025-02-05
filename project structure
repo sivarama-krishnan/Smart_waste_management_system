@@ -1,0 +1,23 @@
+/smart-waste-management
+│── /config
+│   ├── db.js            # Database connection
+│── /controllers
+│   ├── authController.js   # User authentication
+│   ├── complaintController.js # Complaint management
+│   ├── scheduleController.js  # Garbage collection schedules
+│   ├── trackingController.js  # GPS Tracking of collectors
+│── /middleware
+│   ├── authMiddleware.js   # Authentication & authorization
+│── /models
+│   ├── User.js           # User schema (Residents, Officials, Collectors)
+│   ├── Complaint.js      # Complaint schema
+│   ├── Schedule.js       # Garbage collection schedules
+│── /routes
+│   ├── authRoutes.js      # Authentication routes
+│   ├── complaintRoutes.js # Complaint management routes
+│   ├── scheduleRoutes.js  # Scheduling routes
+│   ├── trackingRoutes.js  # Location tracking
+│── /uploads              # Image uploads storage
+│── server.js             # Main entry point
+│── .env                  # Environment variables
+│── package.json
